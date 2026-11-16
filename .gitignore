@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*service-account*.json
+
+# Developer and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Caches, dependencies, and temporary output
+.cache/
+.tmp/
+tmp/
+temp/
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+
+# Generated and source media; keep media in managed storage, not this docs repository
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.flac
+*.psd
+*.blend
+*.png
+*.jpg
+*.jpeg
+*.webp

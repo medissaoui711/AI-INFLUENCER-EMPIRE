@@ -1,0 +1,2 @@
+# Keep text documentation consistent across Windows and Unix environments.
+* text=auto eol=lf
