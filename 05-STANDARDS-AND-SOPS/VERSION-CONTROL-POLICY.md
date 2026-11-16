@@ -1,7 +1,8 @@
 # Version Control Policy
 
-- Keep the company documentation repository local unless the founder approves a remote.
-- The planned future GitHub repository is Private; no remote is configured in this phase.
+- Use the local Git repository for project development. The configured `origin` matches `medissaoui711/AI-INFLUENCER-EMPIRE`; the founder reports that the GitHub repository is Private and that its default branch is `main`.
+- Do not treat remote tracking as proof that synchronization or backup policies are verified. Those policies have not been tested.
+- Do not add, remove, or change remotes, or push changes, without explicit founder approval.
 - Use `main` for the initial branch. Keep changes scoped and reviewable.
 - Never commit credentials, tokens, keys, browser profiles, private account data, or raw/generated media.
 - Review staged file names and diffs before committing. Exclusions are defense in depth, not a substitute for review.
